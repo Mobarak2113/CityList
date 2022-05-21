@@ -46,6 +46,7 @@ public class CityList {
      * This returns a sorted list of cities
      * @return
      *      Return the sorted list of cities
+     *      if parameter equal 1 then according to city name otherwise provincename
      */
     public List<City> getCities(int param) {
         List<City> cityList = cities;
